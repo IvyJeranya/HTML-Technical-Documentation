@@ -1,0 +1,155 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+/* Header */
+header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a3b18a;
+}
+
+/* Sidebar / Navbar Styling */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul > li {
+    margin-bottom: 10px;
+}
+
+/* Main Navigation Links */
+#navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#navbar .nav-link:hover {
+    color: #a3b18a;
+    font-weight: bold;
+}
+
+/* Sub-navigation styling */
+#navbar ul ul {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+#navbar ul ul .nav-link {
+    font-size: 14px;
+    color: #ddd;
+}
+
+#navbar ul ul .nav-link:hover {
+    color: #c3c2c2;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+#main-doc {
+    margin-left: 270px;
+    padding: 25px 50px;
+    max-width: 1200px;
+}
+
+/* Paragraph Spacing */
+#main-doc p {
+    margin-bottom: 15px;
+    padding: 5px;
+    line-height: 1.6;
+}
+
+.main-section ul li {
+    margin: 5px;
+}
+
+/* Section Headers */
+.main-section > header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #a3b18a;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+/* Sub-section Headers */
+.main-section section > header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Code Styling */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+}
+
+pre code {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #navbar .nav-link {
+        margin: 5px 10px;
+        text-align: center;
+    }
+}

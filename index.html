@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial - Technical Documentation</title>
+  <link rel="stylesheet" href="/Projects/Documentation Page Instructions /css/styles.css">
+</head>
+<body>
+
+  <!-- Sidebar / Navbar -->
+  <nav id="navbar">
+    <header>HTML Documentation</header>
+    <ul>
+      <li><a href="#introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#html_basics" class="nav-link">HTML Basics</a></li>
+      <li><a href="#html_inline_elements" class="nav-link">HTML Inline Elements</a></li>
+      <li><a href="#html_forms" class="nav-link">HTML Forms</a></li>
+      <li><a href="#html_media" class="nav-link">HTML Media</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-doc">
+
+    <!-- Section 1: Introduction -->
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p>Welcome to the HTML guide! HTML, or HyperText Markup Language, is the backbone of all websites. This language provides the structure of a webpage, allowing developers to organize text, images, links, and other multimedia elements into a cohesive and navigable format.</p>
+      <ul>
+        <li>HTML is the foundation of web pages.</li>
+        <li>HTML structures web content.</li>
+        <li>It supports multimedia elements.</li>
+        <li>Works across all major browsers.</li>
+        <li>Used by all web developers.</li>
+      </ul>
+
+      <!-- Subsection: What is HTML? -->
+      <section id="what_is_html">
+        <header>What is HTML?</header>
+        <p>HTML (HyperText Markup Language) is the standard language used to create and structure webpages. HTML enables developers to describe the purpose and appearance of content on the web, from simple text to complex page layouts. Since its inception, HTML has become the foundational language for web design, supported by all browsers worldwide.</p>
+        <p>At its core, HTML uses elements—defined by tags—to organize and present content. Each tag provides a unique role, whether to create a heading, a paragraph, an image, or a link. For example, the <code>&lt;h1&gt;</code> tag denotes a major heading, while the <code>&lt;p&gt;</code> tag indicates a paragraph of text.</p>
+      </section>
+
+      <!-- Subsection: Core HTML Structure -->
+      <section id="core_html_structure">
+        <header>Core HTML Structure</header>
+        <p>The structure of an HTML document is composed of several key components. Each HTML document typically begins with a declaration <code>&lt;!DOCTYPE html&gt;</code>, followed by the root element, <code>&lt;html&gt;</code>, which contains all the content on the page.</p>
+        <p>Within the <code>&lt;html&gt;</code> element, the <code>&lt;head&gt;</code> section holds metadata, such as the document title and links to stylesheets. The <code>&lt;body&gt;</code> section includes all visible content, including text, images, and interactive elements.</p>
+        <p>By organizing these sections correctly, developers ensure their pages are readable, accessible, and compatible across browsers and devices.</p>
+      </section>
+
+      <!-- Subsection: Web Design Basics -->
+      <section id="web_design_basics">
+        <header>Web Design Basics</header>
+        <p>Understanding HTML is the first step to designing webpages. HTML provides structure, but it is usually paired with CSS for styling and JavaScript for interactivity. Together, these languages form the core of web development, enabling the creation of visually appealing and functional websites.</p>
+      </section>
+    </section>
+
+    <!-- Section 2: HTML Basics -->
+    <section id="html_basics" class="main-section">
+      <header>HTML Basics</header>
+      <p>In this section, we cover basic HTML elements, such as paragraphs and headings, which are essential for organizing text on a webpage.</p>
+      <ul>
+        <li>HTML paragraphs separate blocks of text.</li>
+        <li>Headings organize page structure.</li>
+        <li>Lists present items in an ordered way.</li>
+        <li>Hyperlinks connect to other pages.</li>
+        <li>Media elements enhance content.</li>
+      </ul>
+
+      <!-- Subsection: HTML Paragraphs -->
+      <section id="html_paragraphs">
+        <header>HTML Paragraphs</header>
+        <p>The <code>&lt;p&gt;</code> tag defines a paragraph. Text within this tag will be displayed as a block of text with spacing above and below. Paragraph tags are essential for separating text and making content more readable.</p>
+        <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+      </section>
+
+      <!-- Subsection: HTML Headings -->
+      <section id="html_headings">
+        <header>HTML Headings</header>
+        <p>HTML provides six levels of headings, from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>. The <code>&lt;h1&gt;</code> tag represents the main heading, while <code>&lt;h6&gt;</code> is the smallest, typically used for sub-subsections. Using headings correctly helps with content organization and accessibility, as search engines and screen readers use these elements to understand the document structure.</p>
+        <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code><br>
+        <code>&lt;h2&gt;Subheading&lt;/h2&gt;</code>
+      </section>
+    </section>
+
+    <!-- Section 3: HTML Inline Elements -->
+    <section id="html_inline_elements" class="main-section">
+      <header>HTML Inline Elements</header>
+      <p>This section explains the difference between block and inline elements and introduces HTML links, which allow for internal and external navigation.</p>
+      <ul>
+        <li>Block elements occupy full width.</li>
+        <li>Inline elements fit in-line with text.</li>
+        <li>HTML links navigate pages.</li>
+        <li>Images can be inline or block.</li>
+        <li>Inline styling affects specific elements.</li>
+      </ul>
+
+      <!-- Subsection: Block vs. Inline Elements -->
+      <section id="block_vs_inline">
+        <header>Block vs. Inline Elements</header>
+        <p>Block elements take up the full width of their container, creating a new line and stacking vertically. Inline elements, on the other hand, take up only as much width as they need, staying within the same line. Understanding this distinction is crucial for arranging content effectively on a webpage.</p>
+        <p><strong>Examples:</strong></p>
+        <ul>
+          <li><strong>Block elements:</strong> <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code></li>
+          <li><strong>Inline elements:</strong> <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code></li>
+        </ul>
+      </section>
+
+      <!-- Subsection: HTML Links -->
+      <section id="html_links">
+        <header>HTML Links</header>
+        <p>The <code>&lt;a&gt;</code> tag defines a hyperlink, enabling users to navigate between webpages, documents, or specific locations within the same page. The <code>href</code> attribute specifies the URL or location to link to.</p>
+        <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code>
+      </section>
+    </section>
+
+    <!-- New Section 4: HTML Forms -->
+    <section id="html_forms" class="main-section">
+      <header>HTML Forms</header>
+      <p>HTML forms allow users to submit data to a web server, making them essential for user interaction on websites. Forms can include text inputs, radio buttons, checkboxes, and more.</p>
+      <ul>
+        <li>The <code>&lt;form&gt;</code> tag creates a form.</li>
+        <li>The <code>&lt;input&gt;</code> tag captures user input.</li>
+        <li>Form elements like text, radio, and checkbox.</li>
+        <li><code>action</code> attribute specifies the data destination.</li>
+        <li><code>method</code> attribute defines GET or POST requests.</li>
+      </ul>
+      <p>Example:</p>
+      <code>
+        &lt;form action="/submit-form" method="POST"&gt;<br>
+        &nbsp;&nbsp;&lt;label&gt;Name:&lt;/label&gt;<br>
+        &nbsp;&nbsp;&lt;input type="text" name="name"&gt;<br>
+        &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+        &lt;/form&gt;
+      </code>
+    </section>
+
+    <!-- New Section 5: HTML Media -->
+    <section id="html_media" class="main-section">
+      <header>HTML Media</header>
+      <p>HTML provides tags for embedding multimedia, such as images, audio, and video, allowing for a richer web experience.</p>
+      <ul>
+        <li><code>&lt;img&gt;</code> tag for images.</li>
+        <li><code>&lt;audio&gt;</code> tag for embedding audio.</li>
+        <li><code>&lt;video&gt;</code> tag for embedding video.</li>
+        <li><code>src</code> attribute specifies the media source.</li>
+        <li><code>controls</code> attribute adds play, pause, and volume options.</li>
+      </ul>
+      <p>Example:</p>
+      <code>
+        &lt;video width="320" height="240" controls&gt;<br>
+        &nbsp;&nbsp;&lt;source src="movie.mp4" type="video/mp4"&gt;<br>
+        &nbsp;&nbsp;Your browser does not support the video tag.<br>
+        &lt;/video&gt;
+      </code>
+    </section>
+  </main>
+</body>
+</html>
